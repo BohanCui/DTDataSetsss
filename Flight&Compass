@@ -1,0 +1,10 @@
+Flight.csv: 7 columns: DayofMonth, DayOfWeek, carrier, OriginAirportID, DestAirportID, DepDelay,ArrDelay
+
+Compass: 28 columns: personID, AssessmentID, CaseID,Agency_Text, LAstName, FirstName, MiddleName,SEx_Code_Text, Ethnic_Code_Text, DateOfBirth, ScaleSet_ID, ScaleSet, AssessmentReason, Language, LegalStatus, CustodyStatus, MaritalStatus, Screening_Date, RecSUpervisionLevel, RecSupervisionLevelText, Scale_ID, DisplayTExt, RawSCore, DecileScore, SCoreText, AssessmentType, IsCompleted, ISDeleted
+
+
+import pandas as pd
+flight = pd.read_csv ('Flight.csv', usecols = ['DayofMonth', 'DayOfWeek', 'carrier', 'OriginAirportID', 'DestAirportID', 'DepDelay','ArrDelay'])
+print(df)
+
+
