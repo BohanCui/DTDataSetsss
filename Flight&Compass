@@ -2,9 +2,9 @@ Flight.csv: 7 columns: DayofMonth, DayOfWeek, carrier, OriginAirportID, DestAirp
 
 Compass: 28 columns: personID, AssessmentID, CaseID,Agency_Text, LAstName, FirstName, MiddleName,SEx_Code_Text, Ethnic_Code_Text, DateOfBirth, ScaleSet_ID, ScaleSet, AssessmentReason, Language, LegalStatus, CustodyStatus, MaritalStatus, Screening_Date, RecSUpervisionLevel, RecSupervisionLevelText, Scale_ID, DisplayTExt, RawSCore, DecileScore, SCoreText, AssessmentType, IsCompleted, ISDeleted
 
-Airbnb: 16 columns,
+Airbnb: 16 columns, boolean attributes (36) to be calculated. 
 
-BlueNile: ?
+BlueNile: 7 categorical attributes for the diamonds: shape, cut, color, clarity, polish, symmetry, and florescence 
 
 
 
